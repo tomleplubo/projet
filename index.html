@@ -13,6 +13,10 @@
     <meta name="author" content="" />
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <style>
         .gradient {
             background: #EAEAEA;
@@ -71,7 +75,7 @@
             </style>
 
             <div class="flex flex-wrap">
-                <div class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
+                <div data-aos="fade-right" class="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0">
                     <div class="flex lg:py-12">
                         <img src="https://img.freepik.com/photos-gratuite/pont-bois-ile-koh-nangyuan-surat-thani-thailande_335224-1082.jpg?size=626&ext=jpg&ga=GA1.2.702682385.1679222934&semt=sph"
                             alt="" />
@@ -142,7 +146,7 @@
                 En savoir plus ->
                 </button>
             </div>
-            <div class="w-full md:w-3/5 py-6 text-center">
+            <div data-aos="fade-left" class="w-full md:w-3/5 py-6 text-center">
                 <img class="w-full md:w-4/5 z-50\" src="https://img.freepik.com/photos-gratuite/faire-tamponner-tamponner-femme-race-blanche-comme-lapin-paques-fond-studio-jaune_155003-26118.jpg?size=626&ext=jpg&ga=GA1.2.702682385.1679222934&semt=ais" alt="" />
             </div>
         </div>
@@ -724,6 +728,9 @@
 
     </footer>
 </body>
+<script>
+  AOS.init();
+</script>
 
 </html>
 
